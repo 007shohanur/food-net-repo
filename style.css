@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+
+  font-family: "Poppins", sans-seri;
+}
+.menu {
+  background-color: rgb(194, 86, 86);
+}
+.menu ul li {
+  display: inline-flex;
+}
+.menu ul li a {
+  text-decoration: none;
+  background: linear-gradient(45deg, tomato lightsalmon);
+  font-size: 22px;
+  padding: 5px 10px;
+  color: whitesmoke;
+  text-align: right;
+}
+span {
+  color: rgb(206, 64, 64);
+}
+.menu ul img {
+  height: 35px;
+  width: 80px;
+  padding: 5px 10px 6px 15px;
+  margin: 2px 4px;
+}
+.food {
+  height: 200px;
+  padding-bottom: 150px;
+  margin-bottom: 8%;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 8%;
+  padding-left: 2%;
+}
+.half-width img {
+  height: 300px;
+}
+.half-width h2 {
+  color: rgb(122, 77, 77);
+}
+.about {
+  background-image: url(back-img.png);
+  background-repeat: repeat;
+  height: 350px;
+
+  width: 100%;
+}
+.anchor-button {
+  text-decoration: none;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+.recipies {
+  width: 80%;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 5px;
+}
+.recipies h3 {
+  color: rgb(153, 146, 146);
+  margin-bottom: 30px;
+}
+
+.recipies p {
+  color: rgb(201, 143, 122);
+}
+.box-aria {
+  display: flex;
+}
+.box-aria .box {
+  padding: 3% 2%;
+  margin: 2%;
+  border-radius: 22px;
+  box-shadow: 10px 10px 20px rgb(70, 46, 46);
+}
+.box-aria .box img {
+  height: 70%;
+  width: 100%;
+}
+.box-aria .box h4 {
+  text-align: center;
+  color: rgb(176, 204, 16);
+}
+.box-aria .box p {
+  color: rgb(63, 0, 134);
+}
+.folowers {
+  margin: 2px 3px red;
+  display: flex;
+  box-shadow: 10px 20px 30px rgb(20, 48, 99);
+}
+.wide {
+  padding: 1% 100px;
+  text-align: center;
+}
+.wide h1 {
+  color: rgb(82, 82, 150);
+}
+.wide p {
+  color: rgb(117, 148, 86);
+}
+footer {
+  text-align: center;
+  background-color: rgb(142, 173, 142);
+}
